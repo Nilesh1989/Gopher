@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## A Machine Learning based malicious domain detection
 
 You can use the [editor on GitHub](https://github.com/Nilesh1989/Detection-Of-Malicious-Domain/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
