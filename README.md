@@ -32,7 +32,7 @@ So we have decided to consolidate these behaviours into single problem and devel
 11. Path token count
 12. URL largest token length
 13. Host largest token length
-14. Path largest token length
+14. Path largest token length   
 15. IP address presence
 16. ASN number
 17. Safe browsing
@@ -45,8 +45,12 @@ So we have decided to consolidate these behaviours into single problem and devel
 - Will add shortened URL as a feature
 - Will add number of special characters (- and _) as a feature
 - Will add website contents as a feature
+### Training
 ### Results
+     Testing Accuracy :: 94.67%
+     Confusion Matrix :: [102, 4]
+                         [5, 58]
 ### Refrences
-- [Research paper by Doyen Sahoo, Chenghao Liu, Steven C.H. Hoi](https://arxiv.org/abs/1701.07179, "Malicious URL Detection using Machine Learning")
-- [Source code by Vaseem Khan on Github](https://github.com/vaseem-khan/URLcheck, "Malicious Web Sites Detection using Suspicious URL")
-- [Phishing Domain Detection with Machine Learning](https://www.normshield.com/phishing-domain-detection-with-machine-learning/, "NormShield")
+- [Research paper by Doyen Sahoo, Chenghao Liu, Steven C.H. Hoi](https://arxiv.org/abs/1701.07179 "Malicious URL Detection using Machine Learning")
+- Source code on github by [@vaseem-khan](https://github.com/vaseem-khan/URLcheck "Malicious Web Sites Detection using Suspicious URL")
+- [Phishing Domain Detection with Machine Learning](https://www.normshield.com/phishing-domain-detection-with-machine-learning/ "NormShield")
