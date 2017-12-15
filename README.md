@@ -1,5 +1,5 @@
 ## A Machine Learning based malicious domain detection
-![alt text](https://cdn-images-1.medium.com/max/1018/1*HCx6LJVOUYUCkbgPwHhEIw@2x.png "Tessearct Global")
+![alt text](https://www.tesseract.global/images/LogoFull.png "Tessearct Global")
 ### Overview
 A domain can be used for malicious purposes like 
 - Malware, Virus or Trojan delivery
