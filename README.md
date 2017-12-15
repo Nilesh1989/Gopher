@@ -5,11 +5,11 @@ A domain can be used for malicious purposes like
 - Phishing
 - Spam mails
 - Malicious Ad Campaigns (Malvertising)
-- Command and Control (C2C) 
-- DGA (Domian Generation Algorithms)
+- Command and Control (C2C)
+- DGA (Domain Generation Algorithms)
 - Data Exfiltration etc.
 
-So our idea was to develop an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free machine learning library for the python programming language.
+So our idea was to develop an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free machine learning library for the python programming language. 
 ### Problems
 - There are many repositories are available to detect malicious url, phishing domains, DGA in github. But the problem we have seen is, for different attacks we have different solutions.
 - Even though attacks have same behaviours in most of the attacks, we have different solutions.
