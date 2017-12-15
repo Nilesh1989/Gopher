@@ -19,9 +19,13 @@ Note here that we are detecting malicious domain not malicious URL, because we a
 - The repositories are not updated up to the mark.
 
 So we have decided to consolidate these behaviours into single problem and develop a prediction model for the detection of malicious domains. Thus we don't have to rely on different solutions and maintaining different models.
+
 ### Dependencies
 requirements.txt file contains actual dependencies to run this project. Install it using `pip install requirements.txt` command.
+
 ### Quick Start
+To-Do
+
 ### Feature Least
 1. URL length
 2. Host length
@@ -43,18 +47,22 @@ requirements.txt file contains actual dependencies to run this project. Install 
 18. Domain age
 19. Number of subdomains
 20. Is IDN (International Domain Name)
+
 ### To-Do
 - Will add more machine learning models
 - Will add Is domain from dynamic DNS as a feature
 - Will add shortened URL as a feature
 - Will add number of special characters (- and _) as a feature
 - Will add website contents as a feature
+
 ### Results
      Testing Accuracy :: 94.67%
      Confusion Matrix :: [102, 4]
                          [5, 58]
+                         
 ### Contributing
-Feel free to fork and submit pull requests in [development](https://github.com/Nilesh1989/Detection-Of-Malicious-Domain/tree/developments). 
+Feel free to fork and submit pull requests in [development](https://github.com/Nilesh1989/Detection-Of-Malicious-Domain/tree/developments).
+ 
 ### Refrences
 - [Research paper by Doyen Sahoo, Chenghao Liu, Steven C.H. Hoi](https://arxiv.org/abs/1701.07179 "Malicious URL Detection using Machine Learning")
 - Source code on github by [@vaseem-khan](https://github.com/vaseem-khan/URLcheck "Malicious Web Sites Detection using Suspicious URL")
