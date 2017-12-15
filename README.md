@@ -12,14 +12,13 @@ A domain can be used for malicious purposes like
 
 So our idea was to develop an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free machine learning library for the python programming language. 
 ### Problems
-===
 - There are many repositories are available to detect malicious url, phishing domains, DGA in github. But the problem we have seen is, for different attacks we have different solutions.
 - Even though attacks have same behaviours in most of the attacks, we have different solutions.
 - The repositories are not updated up to the mark.
 
 So we have decided to consolidate these behaviours into single problem and develop a prediction model for the detection of malicious domains. Thus we don't have to rely on different solutions and maintaining different models.
 ### Dependencies
-requirements.txt file contains actual dependecies to run this project install it using `pip install requirements.txt` command.
+requirements.txt file contains actual dependencies to run this project. Install it using `pip install requirements.txt` command.
 ### Quick Start
 ### Feature Least
 1. URL length
