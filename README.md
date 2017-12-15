@@ -1,11 +1,18 @@
 ## A Machine Learning based malicious domain detection
-A malicious domain can be used for many purposes in hacking, like 
+### Overview
+A domain can be used for malicious purposes like 
 - Malware, Virus or Trojan delivery
 - Phishing
 - Spam mails
-- Ransomware etc.
+- Malicious Ad Campaigns (Malvertising)
+- Command and Control (C2C)
+- DGA (Domian Generation Algorithms)
+- Data Exfiltration etc.
 
-So our idea was to develope an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free software machine learning library for the python programming language.  
+So our idea was to develop an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free machine learning library for the python programming language.
+### Problems
+There are 
+  
 
 
 You can use the [editor on GitHub](https://github.com/Nilesh1989/Detection-Of-Malicious-Domain/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
