@@ -53,6 +53,8 @@ requirements.txt file contains actual dependencies to run this project. Install 
      Testing Accuracy :: 94.67%
      Confusion Matrix :: [102, 4]
                          [5, 58]
+### Contributing
+Feel free to fork and submit pull requests in [development](https://github.com/Nilesh1989/Detection-Of-Malicious-Domain/tree/developments). 
 ### Refrences
 - [Research paper by Doyen Sahoo, Chenghao Liu, Steven C.H. Hoi](https://arxiv.org/abs/1701.07179 "Malicious URL Detection using Machine Learning")
 - Source code on github by [@vaseem-khan](https://github.com/vaseem-khan/URLcheck "Malicious Web Sites Detection using Suspicious URL")
