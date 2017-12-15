@@ -1,6 +1,7 @@
 ## A Machine Learning based malicious domain detection
 ![alt text](https://www.tesseract.global/images/LogoFull.png "Tessearct Global")
 ### Overview
+===
 A domain can be used for malicious purposes like 
 - Malware, Virus or Trojan delivery
 - Phishing
@@ -12,12 +13,14 @@ A domain can be used for malicious purposes like
 
 So our idea was to develop an open source code to detect malicious domains using machine learning. We are using Scikit-learn, a free machine learning library for the python programming language. 
 ### Problems
+===
 - There are many repositories are available to detect malicious url, phishing domains, DGA in github. But the problem we have seen is, for different attacks we have different solutions.
 - Even though attacks have same behaviours in most of the attacks, we have different solutions.
 - The repositories are not updated up to the mark.
 
 So we have decided to consolidate these behaviours into single problem and develop a prediction model for the detection of malicious domains. Thus we don't have to rely on different solutions and maintaining different models.
 ### Dependencies
+Install dependencies using `pip install requirements.txt` command
 ### Quick Start
 ### Feature Least
 1. URL length
@@ -46,7 +49,6 @@ So we have decided to consolidate these behaviours into single problem and devel
 - Will add shortened URL as a feature
 - Will add number of special characters (- and _) as a feature
 - Will add website contents as a feature
-### Training
 ### Results
      Testing Accuracy :: 94.67%
      Confusion Matrix :: [102, 4]
