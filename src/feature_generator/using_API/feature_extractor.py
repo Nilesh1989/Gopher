@@ -117,10 +117,6 @@ def whoisinfo(host):
         return nf
 
 
-def isidn(host):
-    return 0 if 'xn--' not in str(host.encode('idna')) else 1
-
-
 def feature_ext(url, label):
     feature = {}
     extracted = tldextract.extract(url)
@@ -130,7 +126,6 @@ def feature_ext(url, label):
 
     tokens_words = re.split('\W+', url)
     host = domain + '.' + suffix if domain != '' else suffix
-    subdomains = len(subdomain.split('.'))
     # host = obj.netloc
     path = urlparse(url).path
 
@@ -149,8 +144,6 @@ def feature_ext(url, label):
     feature['asn_no'] = getasn(host)
     feature['safebrowsing'] = safebrowsing(url)
     feature['domain_age'] = 0 if feature['ipaddress_presence'] == 1 else whoisinfo(host)
-    feature['no_of_subdomain'] = subdomains
-    feature['is_idn'] = isidn(host)
     # feature['in_dynamic_dns'] = whoisinfo(host)
     # feature['shortened_url'} = is_shortened(url)
     # feature['web_content'] = get_web_features(url)
