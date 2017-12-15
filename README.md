@@ -16,6 +16,7 @@ So our idea was to develop an open source code to detect malicious domains using
 - The repositories are not updated up to the mark.
 
 So we have decided to consolidate these behaviours into single problem and develop a prediction model for the detection of malicious domains. Thus we don't have to rely on different solutions and maintaining different models.
+### Dependencies
 ### Quick Start
 ### Feature Least
 1. URL length
@@ -46,3 +47,6 @@ So we have decided to consolidate these behaviours into single problem and devel
 - Will add website contents as a feature
 ### Results
 ### Refrences
+- [Research paper by Doyen Sahoo, Chenghao Liu, Steven C.H. Hoi](https://arxiv.org/abs/1701.07179, "Malicious URL Detection using Machine Learning")
+- [Source code by Vaseem Khan on Github](https://github.com/vaseem-khan/URLcheck, "Malicious Web Sites Detection using Suspicious URL")
+- [Phishing Domain Detection with Machine Learning](https://www.normshield.com/phishing-domain-detection-with-machine-learning/, "NormShield")
